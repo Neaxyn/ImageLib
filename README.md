@@ -1,2 +1,2 @@
 # ImageLib
-Image library to manage image, made by me and Almeric steichen
+Image library to manage image, made by me and Almeric Steichen
