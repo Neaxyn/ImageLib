@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="615.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javafxpro.controller.ImageController">
+      <ImageView fx:id="putImage" fitHeight="330.0" fitWidth="447.0" layoutX="139.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="418.0" layoutY="22.0" mnemonicParsing="false" onAction="#chargement" prefHeight="25.0" prefWidth="111.0" text="Charger fichier" />
+      <Button layoutX="5.0" layoutY="128.0" mnemonicParsing="false" onAction="#rotationGauche" prefHeight="25.0" prefWidth="111.0" text="Rotation a gauche" />
+      <Button layoutX="5.0" layoutY="242.0" mnemonicParsing="false" onAction="#symetrieVertical" prefHeight="25.0" prefWidth="111.0" text="Symétrie V" />
+      <Button layoutX="5.0" layoutY="303.0" mnemonicParsing="false" onAction="#noirEtBlanc" prefHeight="25.0" prefWidth="111.0" text="Noir et Blanc" />
+      <Button layoutX="5.0" layoutY="361.0" mnemonicParsing="false" onAction="#SepiaFilter" prefHeight="25.0" prefWidth="111.0" text="Sepia" />
+      <Button layoutX="8.0" layoutY="71.0" mnemonicParsing="false" onAction="#rotationDroite" prefHeight="25.0" prefWidth="111.0" text="rotation a droite" />
+      <Button layoutX="9.0" layoutY="432.0" mnemonicParsing="false" onAction="#SobelFilter" prefHeight="25.0" prefWidth="103.0" text="Sobel" />
+      <Button layoutX="8.0" layoutY="184.0" mnemonicParsing="false" onAction="#symetrieHorizontal" prefHeight="25.0" prefWidth="111.0" text="Symetrie H" />
+      <Button layoutX="14.0" layoutY="22.0" mnemonicParsing="false" onAction="#Inverser" prefHeight="25.0" prefWidth="111.0" text="GBR" />
+      <ListView fx:id="listView" layoutX="183.0" layoutY="404.0" onMouseClicked="#ouvrirImageAvecTags" prefHeight="105.0" prefWidth="378.0" />
+      <Label layoutX="183.0" layoutY="26.0" prefHeight="17.0" prefWidth="39.0" text="tags:" />
+      <ChoiceBox fx:id="choixTags" layoutX="213.0" layoutY="22.0" onAction="#chercher" prefWidth="150.0" />
+
+</AnchorPane>

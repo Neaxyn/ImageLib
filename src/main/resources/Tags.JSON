@@ -1,0 +1,32 @@
+{
+  "bibliotheque": [
+    {
+      "nomImage": "chevre.jpg",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "nomImage": "tree.jpg",
+      "tags": [
+        "paysage",
+        "soleil",
+        "ciel"
+      ]
+    },
+    {
+      "nomImage": "railway.jpg",
+      "tags": [
+        "transport",
+        "paysage"
+      ]
+    },
+    {
+      "nomImage": "montgolfière.jpg",
+      "tags": [
+        "transport",
+        "ciel"
+      ]
+    }
+  ]
+}
